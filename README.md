@@ -19,7 +19,9 @@
 2. 在那个文件夹里新建 "ly.cfg" 文件 内容为
 
    > FPath=E:\\Temp\\
+   
    > CPath=E:\\Temp\\
+   
    > LPath=E:\\Temp\\
    
    *注：*
