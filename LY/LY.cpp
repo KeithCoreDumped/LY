@@ -84,7 +84,9 @@ int main(int argc, char* argv[])
 	{
 		std::ofstream errflog("err.log");
 		errflog << "error opening " << lp << std::endl;
+		errflog.close();
 		flog = std::ofstream("LY.log", std::ios::app);
+		
 	}
 	flog << gettimec() << "\t\t\t\tCtrlPath:" << cp << "\tLogPath:" << lp << "\tFilePath:" << fp << std::endl;
 	if (exist(cp) && !exist(cp1))
